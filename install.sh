@@ -23,6 +23,9 @@ find . -type f -name "*.zip" -exec wp theme install {} \;
 wp theme uninstall twentytwentytwo
 wp theme uninstall twentytwentythree
 
+#activate themes
+wp theme activate Divi
+
 #cleanup
 cd ..
 rm -rf repo
