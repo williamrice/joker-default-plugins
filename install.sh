@@ -19,9 +19,9 @@ cd ../themes
 # Recursively unzip each zip folder inside
 find . -type f -name "*.zip" -exec wp theme install {} \;
 
-#uninstall default themes leaving 1 fallback thentytwentyfour
-wp theme uninstall twentytwentytwo
+#uninstall default themes leaving 1 fallback twentytwentyfive
 wp theme uninstall twentytwentythree
+wp theme uninstall twentytwentyfour
 
 #activate themes
 wp theme activate Divi
